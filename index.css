@@ -1,20 +1,9 @@
 .header {
     height: 100px;
-    background-color: blue;
-}
-.navbar{
-    align-items: center;
-}
-.navbar-table{
-    width: 100%;
-    margin: auto;
-}
-.navbar-link {
-    padding:1%;
-    text-align: center;
+    background-color: rgb(18, 18, 228);
 }
 
-.carousel-item img{
+carousel-item img{
     width: 100%;
     object-fit: cover;
     
