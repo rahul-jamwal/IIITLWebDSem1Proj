@@ -3,3 +3,9 @@
     background-color: rgb(18, 18, 228);
 }
 
+carousel-item img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
