@@ -13,3 +13,10 @@
     padding:1%;
     text-align: center;
 }
+
+.carousel-item img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
