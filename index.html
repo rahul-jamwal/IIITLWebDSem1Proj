@@ -33,7 +33,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div id="navbar" class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -47,21 +47,18 @@
                 href="#"
                 id="navbarDropdown"
                 role="button"
-                data-bs-toggle="dropdown"
+                data-toggle="dropdown"
                 aria-expanded="false"
+                aria-haspopup="true"
               >
                 Academics
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Faculty</a></li>
-                <li><a class="dropdown-item" href="#">Recruitment</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Social Media links</a>
-                </li>
-              </ul>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Faculty</a>
+                <a class="dropdown-item" href="#">Recruitment</a>
+                <hr class="dropdown-divider" />
+                <a class="dropdown-item" href="#">Social Media links</a>
+              <div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
